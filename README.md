@@ -24,17 +24,17 @@
 # Project structure
 ----
 
-*.*
-├── README.md
-├── *app*
-│   ├── app.module.js
-│   ├── app.routes.js
-│   ├── *assets*
-│   ├── *components*
-│   └── *shared*
-├── bower.json
-├── index.html
-├── *node_modules*
-│   ├── *bower*
-│   └── *http-server*
-└── package.json
+**.**
++-- README.md
++-- **app**
+|	+-- app.module.js
+|	+-- app.routes.js
+|	+-- **assets**
+|	+-- **components**
+|	+-- **shared**
++-- bower.json
++-- index.html
++-- **node_modules**
+|	+-- **bower**
+|	+-- **http-server**
++-- package.json
