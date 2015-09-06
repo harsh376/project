@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title>HELLO WORLD!</title>
+	
+	<!-- Vendor scripts -->
+	<script src="app/assets/libs/angular/angular.js"></script>
+	<script src="app/assets/libs/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+	
+	<!-- Module scripts -->
+	<script src="app/app.module.js"></script>
+	<script src="app/shared/testing/testingControllers.js"></script>
+
+</head>
+<body>
+	<p>Hello. this is the home page.</p>
+
+	<!-- testing submit() function in controller -->
+    <div ng-controller="resetCtrl">
+        <label>Reset Colors</label>
+        <input type="checkbox" ng-model="resetColors">
+        <button ng-click="submit()">Submit</button>
+        <br>
+        <tt>{{result}}</tt>
+    </div>
+
+</body>
+</html>

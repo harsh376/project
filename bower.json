@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "homepage": "https://github.com/harsh376/project",
+  "authors": [
+    "Harsh Verma <harsh376@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.5",
+    "angular-bootstrap": "~0.13.4"
+  }
+}
