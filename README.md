@@ -11,14 +11,12 @@
 `bower install`
 
 ----
-# Testing small things
+# Running the server
 ----
 
-`st ~/project/app/shared/testing/testingControllers.js`
+`cd ~/project`
 
-`st ~/project/app/shared/testing/testingDirectives.js`
-
-.. and so on for services, etc
+`node node_modules/http-server/bin/http-server`
 
 ----
 # Project structure
@@ -40,3 +38,13 @@
 │   └── http-server
 └── package.json
 ```
+
+----
+# Testing small code snippets
+----
+
+`st ~/project/app/shared/testing/testingControllers.js`
+
+`st ~/project/app/shared/testing/testingDirectives.js`
+
+.. and so on for services, etc
